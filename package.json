@@ -24,6 +24,7 @@
   "homepage": "https://github.com/vsec7/Discord-SelfBot#readme",
   "dependencies": {
     "axios": "^0.26.1",
-    "dc-api": "^1.0.1"
+    "dc-api": "^1.0.1",
+    "dotenv": "^16.0.0"
   }
 }
