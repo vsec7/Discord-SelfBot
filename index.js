@@ -29,7 +29,7 @@ async function simsimi(input, lc) {
 
 async function Quote() {
     // Quote
-    const url = 'https://raw.githubusercontent.com/lakuapik/quotes-indonesia/master/raw/quotes.json';   
+    const url = 'https://raw.githubusercontent.com/lakuapik/quotes-indonesia/master/raw/quotes.min.json';   
     let res = await axios.get(url);
     return res.data[Math.floor((Math.random()*res.data.length))].quote;    
 }
